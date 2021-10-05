@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>TIC-TAC TOE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Tourney:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="game.css">
+    <script src="game.js"></script>
+</head>
+<body>
+    <h1 id="head">Welcome to Tic TAC Toe</h1>
+    <div class="main">
+        <div class="box">
+        <p id="first_name"><strong></strong></p> 
+        <p id="space"> Vs </p>
+        <p id="second_name"><strong></strong></p> 
+        <p id="print"> <strong></strong></p>
+    </div>
+        <br><br>
+        <input type="text" id="S1" onclick="myfunc_3(); input();" readonly>
+        <input type="text" id="S2" onclick="myfunc_4(); input();" readonly>
+        <input type="text" id="S3" onclick="myfunc_5(); input();" readonly>
+        <br><br>
+        <input type="text" id="S4" onclick="myfunc_6(); input();" readonly> 
+        <input type="text" id="S5" onclick="myfunc_7(); input();" readonly>
+        <input type="text" id="S6" onclick="myfunc_8(); input();" readonly>
+        <br><br>
+        <input type="text" id="S7" onclick="myfunc_9(); input();" readonly>
+        <input type="text" id="S8" onclick="myfunc_10(); input();" readonly>
+        <input type="text" id="S9" onclick="myfunc_11(); input();" readonly>
+
+        <br><br>
+
+        <button class="reset" onclick="myfunc_2()"> Play again</button>
+        <button class="reset" onclick="window.location.href= 'index.html'"> Stop Game</button>
+
+    </div>
+<br><br><br>
+<br>
+<footer>
+    <p> © 2020 Copyright: All right reserved  </p>
+</footer>
+
+</body>
+</html>

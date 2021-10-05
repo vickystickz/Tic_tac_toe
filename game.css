@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+
+h1 {
+    font-family: 'Tourney', cursive;
+    font-size: 85px;
+}
+p.match { 
+    font-family: 'Tourney', cursive;
+    font-size: 20px;
+}
+#first_name, #second_name {
+    font-family: 'Tourney', cursive;
+    font-size: 30px;
+    display: inline;
+}
+#space {
+    font-family: 'Tourney', cursive;
+    font-size: 40px;
+    color: white;
+    display: inline;
+}
+
+#print {
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#head {
+    font-family:'Tourney', cursive ;
+    color: #f5f5dc;
+    font-size: 80px;
+}
+#score {
+    font-family: sans-serif;
+    font-style: bold;
+}
+
+#Login {
+    align-items: center;
+    padding-top: 2%;
+    display: block;
+
+}
+
+div.main {
+    align-items: center;
+    padding: 1% 10% 3% 10%;
+    margin-left: 350px;
+    margin-right: 350px;
+    display: block;
+    background-color: #f3ca20;
+    border-radius: 8px;
+
+
+}
+div.box {
+    padding-right: 20px;
+}
+
+div.header {
+    margin: auto;
+    background-color:#f3ca20;
+    width: 25%;
+    padding: 6px 4% 1% 4% ;
+    text-align: center;
+    border-width: 10px;
+    border-radius: 20px;
+    border-style: solid;
+
+}
+input.player {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 7px;
+    
+}
+
+
+#S1,#S2,#S3,#S4,#S5,#S6,#S7,#S8,#S9{
+        width: 70px;
+        height: 50px;
+        margin: auto;
+        border: 1px solid gray;
+        border-radius: 6px;
+        font-size: 30px;
+        text-align: center;
+}
+.button, .reset, .stop {
+    background: rgba(255, 255, 255, 0.564);
+    border-radius: 4px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    padding: 1.25em 3em;
+    text-decoration: none;
+    -webkit-transition: 0.25s ease;
+    transition: 0.25s ease; }
+
+.button:hover, .reset:hover, .stop:hover {
+      color:aliceblue; 
+      background-color: #000;
+    }
