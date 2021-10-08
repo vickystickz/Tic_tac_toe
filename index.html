@@ -11,7 +11,6 @@
             const player1 = document.getElementById('Player1').value;
             const player2 = document.getElementById('Player2').value;
             
-
             localStorage.setItem("firstName", player1);
             localStorage.setItem("secondName", player2);
             return;
@@ -23,14 +22,14 @@
     <div class="header">
     <header>
         <h1>Tic Tac Toe</h1>
-        <form action="game.html" method="POST">
+        <form action="main.html" method="GET">
             <input type="text" placeholder="Player name 1" class="player" id="Player1" required>
             <p class="match"> Vs </p>
             <input type="text" placeholder="Player name 2" class="player" id="Player2" required>
             <br>
             <br>
             <br>
-            <button class="button" onclick="start()" href="game.html"> Begin Game</button>
+            <button class="button" onclick="start();" href="main.html"> Begin Game</button>
         </form>
     </header>
 </div>
