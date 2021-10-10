@@ -9,6 +9,11 @@ h1 {
     font-family: 'Tourney', cursive;
     font-size: 85px;
 }
+h5 { 
+    font-family:sans-serif;
+    font-size: medium;
+    color:#f5f5dc
+}
 p.match { 
     font-family: 'Tourney', cursive;
     font-size: 20px;
