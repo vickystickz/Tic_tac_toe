@@ -49,6 +49,7 @@ function input() {
         document.getElementById("S6").disabled = true;
         document.getElementById("S8").disabled = true;
         document.getElementById("S9").disabled = true;
+        alert(p1+ " "+ "won");
         
     }
         
@@ -63,6 +64,7 @@ function input() {
             document.getElementById("S4").disabled = true;
             document.getElementById("S5").disabled = true;
             document.getElementById("S6").disabled = true;
+            alert(p1+ " "+ "won");
             
     }
     // condition tests if player inputs forms a vertical line through three boxes
@@ -76,6 +78,7 @@ function input() {
             document.getElementById("S5").disabled = true;
             document.getElementById("S7").disabled = true;
             document.getElementById("S8").disabled = true;
+            alert(p1+ " "+ "won");
             
         }
         // condition tests if player inputs forms a diagonal line through three boxes
@@ -89,6 +92,7 @@ function input() {
             document.getElementById("S6").disabled = true;
             document.getElementById("S7").disabled = true;
             document.getElementById("S8").disabled = true;
+            alert(p1+ " "+ "won");
            
         }
         // condition tests if player inputs forms a diagonal line through three boxes
@@ -102,6 +106,7 @@ function input() {
             document.getElementById("S6").disabled = true;
             document.getElementById("S8").disabled = true;
             document.getElementById("S9").disabled = true;
+            alert(p1+ " "+ "won");
             
         }
         // condition tests if player inputs forms a vertical line through three boxes
@@ -116,6 +121,7 @@ function input() {
             document.getElementById("S6").disabled = true;
             document.getElementById("S7").disabled = true;
             document.getElementById("S9").disabled = true;
+            alert(p1+ " "+ "won");
             
         }
         // condition tests if player inputs forms a horizontal line through three boxes
@@ -131,6 +137,7 @@ function input() {
             document.getElementById("S7").disabled = true;
             document.getElementById("S8").disabled = true;
             document.getElementById("S9").disabled = true;
+            alert(p1+ " "+ "won");
             
         }
 
@@ -145,6 +152,7 @@ function input() {
         document.getElementById("S7").disabled = true;
         document.getElementById("S8").disabled = true;
         document.getElementById("S9").disabled = true;
+        alert(p2+ " "+ "won");
         
         }
 
@@ -160,6 +168,7 @@ function input() {
             document.getElementById("b6").disabled = true;
             document.getElementById("b8").disabled = true;
             document.getElementById("b9").disabled = true;
+            alert(p2+ " "+ "won");
             
         }
 
@@ -175,6 +184,7 @@ function input() {
             document.getElementById("S4").disabled = true;
             document.getElementById("S5").disabled = true;
             document.getElementById("S6").disabled = true;
+            alert(p2+ " "+ "won");
             
         }
 
@@ -191,7 +201,7 @@ function input() {
             document.getElementById("S5").disabled = true;
             document.getElementById("S7").disabled = true;
             document.getElementById("S8").disabled = true;
-            
+            alert(p2+ " "+ "won");
         }
 
         // condition tests if player inputs forms a diagonal line through three boxes
@@ -207,6 +217,7 @@ function input() {
             document.getElementById("S6").disabled = true;
             document.getElementById("S7").disabled = true;
             document.getElementById("S8").disabled = true;
+            alert(p2+ " "+ "won");
             
         }
 
@@ -222,6 +233,7 @@ function input() {
             document.getElementById("S6").disabled = true;
             document.getElementById("S8").disabled = true;
             document.getElementById("S9").disabled = true;
+            alert(p2+ " "+ "won");
             
         }
 
@@ -238,6 +250,7 @@ function input() {
             document.getElementById("S6").disabled = true;
             document.getElementById("S7").disabled = true;
             document.getElementById("S9").disabled = true;
+            alert(p2+ " "+ "won");
             
         }
         // condition tests if player inputs forms a horizontal   line through three boxes
@@ -252,6 +265,7 @@ function input() {
             document.getElementById("S7").disabled = true;
             document.getElementById("S8").disabled = true;
             document.getElementById("S9").disabled = true;
+            alert(p2+ " "+ "won");
         }
         // Condition statement tests when the game is a "TIE"
         else if ((S1 == 'X' || S1 == '0') && (S2 == 'X'
@@ -262,6 +276,7 @@ function input() {
         S8 == '0') && (S9 == 'X' || S9 == '0')) {
             document.getElementById('print')
                 .innerHTML = "Match Tie";
+        alert("IT'S A MATCH TIE");
         }
         else {
             // Here, Printing Result
