@@ -69,6 +69,7 @@ div.box {
 
 div.header {
     margin: auto;
+    margin-top: 4%;
     background-color:#f3ca20;
     width: 25%;
     padding: 6px 4% 1% 4% ;
@@ -116,7 +117,7 @@ input.player {
         div.header{
             width: 50%;
             height:10%;
-            margin-top: 20%;
+            margin-top: 15%;
             padding: 6px 4% 20px ;
         }
 
