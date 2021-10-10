@@ -115,10 +115,10 @@ input.player {
 
     @media screen and (max-width:1000px ) {
         div.header{
-            width: 50%;
-            height:10%;
+            width: 90%;
+            height:200%;
             margin-top: 15%;
-            padding: 6px 4% 20px ;
+            padding: 150px 4% 300px ;
         }
 
         h1 {
@@ -135,12 +135,23 @@ input.player {
     @media screen and (max-width:1200px ){
 
     div.main {
-            padding: 1% 2% 3%;
-            margin-left: 140px;
+            padding: 15% 1% 25%;
+            width:90%;
+            height:200%;
+            margin-left: 30px;
             margin-right: 140px;
         }
-    div.btn-mob {
-        padding-top: 6px;
 
+    #head {
+        padding-top: 50px;
+    }
+    div.btn-mob {
+        padding-top: 8px;
+
+    }
+
+    #S1,#S2,#S3,#S4,#S5,#S6,#S7,#S8,#S9{
+        width: 100px;
+        height: 80px;
     }
 }
